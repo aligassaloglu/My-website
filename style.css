@@ -34,7 +34,7 @@ body{
   color: azure;
   margin: 2rem 6rem;
   --shadow-color: #e290ec;
-  animation: neonazi 3s infinite;
+  animation: neon 3s infinite;
 }
 
 /* span{
@@ -45,7 +45,8 @@ body{
 h1{
   font-size:  2rem;
   font-weight: normal;
-  animation: neonazi 5s infinite;
+  --shadow-color: #642c6b;
+  animation: neon 5s infinite;
 }
 @keyframes neon {
     0% {
@@ -71,7 +72,7 @@ h1{
 }
 
 .countdown-el span{
-    font-size: 10rem;
+    font-size: 3rem;
     color: rgb(216, 231, 186);
     animation: neon 3s infinite;
 }

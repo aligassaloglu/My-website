@@ -44,7 +44,7 @@ setInterval(countdown, 1000)
 
 window.onload = function () {
     // Array of Images
-     var backgroundImg=["landscape-1646514316599-4336.jpg",
+     var backgroundImg=[
         "adrian-swancar-pIr-PH5IXF8-unsplash.jpg",
         "greg-rakozy-oMpAz-DN-9I-unsplash.jpg",
         "ibrahim-shabil-VE7VS0C9K1k-unsplash.jpg"

@@ -9,8 +9,8 @@
 }
 
 body{
-    background-image: url("ryan-hutton-Jztmx9yqjBw-unsplash.jpg") ;
-    background-size: cover;
+    background-image: url("adrian-swancar-pIr-PH5IXF8-unsplash.jpg") ;
+    background-size: contain;
     background-position: center center;
     min-height: 100vh;
     display: flex;
@@ -29,12 +29,12 @@ body{
     
 }
 .big-text{
-    font-size: 15rem;
-    font-weight: bold;
-    color: azure;
-    margin: 2rem 15rem;
-    --shadow-color: #e290ec;
-    animation: neon 3s infinite;
+  font-size: 4rem;
+  font-weight: bold;
+  color: azure;
+  margin: 2rem 6rem;
+  --shadow-color: #e290ec;
+  animation: neonazi 3s infinite;
 }
 
 /* span{
@@ -43,9 +43,9 @@ body{
 } */
 
 h1{
-    font-size:  12rem;
-    font-weight: normal;
-    animation: neon 3s infinite;
+  font-size:  2rem;
+  font-weight: normal;
+  animation: neonazi 5s infinite;
 }
 @keyframes neon {
     0% {

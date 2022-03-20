@@ -9,11 +9,11 @@
 }
 
 body{
-    background-image: url("adrian-swancar-pIr-PH5IXF8-unsplash.jpg") ;
-    background-size: contain;
-    background-position: center center;
-    min-height: 100vh;
-    display: flex;
+    background-image: url("ibrahim-shabil-VE7VS0C9K1k-unsplash.jpg") ;
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,16 +23,19 @@ body{
 
 .countdown-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     
 }
 .big-text{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  
   color: azure;
-  margin: 2rem 6rem;
+  margin: auto;
   --shadow-color: #e290ec;
   animation: neon 3s infinite;
 }
@@ -69,10 +72,15 @@ h1{
 
 .countdown-el{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto 2rem;
+    
 }
 
 .countdown-el span{
     font-size: 3rem;
+    
     color: rgb(216, 231, 186);
     animation: neon 3s infinite;
 }

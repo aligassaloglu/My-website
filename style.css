@@ -9,10 +9,11 @@
 }
 
 body{
-    background-image: url("ibrahim-shabil-VE7VS0C9K1k-unsplash.jpg") ;
-    background-size: cover;
+    width: 100%;
+    background-image: url('ibrahim-shabil-VE7VS0C9K1k-unsplash.jpg');  
+    background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
-    /* min-height: 100vh; */
     display: flex; 
     flex-direction: column;
     justify-content: center;
@@ -26,14 +27,14 @@ body{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    
+    transform: translateY(100%);
 }
 .big-text{
-  font-size: 3rem;
+  font-size: 4vw;
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
   color: azure;
   margin: auto;
   --shadow-color: #e290ec;
@@ -46,10 +47,12 @@ body{
 } */
 
 h1{
-  font-size:  2rem;
+  font-size:  2vw;
+  display: flex;
   font-weight: normal;
   --shadow-color: #642c6b;
   animation: neon 5s infinite;
+  transform: translateY(100%);
 }
 @keyframes neon {
     0% {
@@ -79,8 +82,8 @@ h1{
 }
 
 .countdown-el span{
-    font-size: 3rem;
-    
+    font-size: 3vw;
+
     color: rgb(216, 231, 186);
     animation: neon 3s infinite;
 }

@@ -5,7 +5,7 @@ const secsEl = document.getElementById('secs')
 
 
 
-const timetoWebsite = '31 March 2022'
+const timetoWebsite = '31 April 2022'
 
 
 function countdown(){

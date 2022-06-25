@@ -39,20 +39,42 @@ body{
     height: 120px;
     border: #DDDDDD solid 1px;
     border-radius: 26px;
+    box-shadow: 5px 8px 15px rgb(48, 48, 48);
+
 }
 .stake-about{
     width: 100%;
     background-color: #605B5B;
+    box-shadow: 5px 8px 15px rgb(48, 48, 48);
     height: 350px;
     border: #DDDDDD solid 1px;
     border-radius: 26px;
 }
+.stake-experience{
+    width: 100%;
+    background-color: #605B5B;
+    height: 350px;
+    border: #DDDDDD solid 1px;
+    box-shadow: 5px 8px 15px rgb(48, 48, 48);
+    border-radius: 26px;
+}
 .stake-skills{
     width: 100%;
+    box-shadow: 5px 8px 15px rgb(48, 48, 48);
     background-color: #605B5B;
     height: 665px;
     border: #DDDDDD solid 1px;
     border-radius: 26px;
 }
 
-
+@media screen and (max-width:800px) {
+    .stake-about{
+        height: 420px;
+    }
+    .stake-experience{
+        height: 480px;
+    }
+    .mail-text{
+        font-size: 12px;
+    }
+}

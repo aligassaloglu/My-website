@@ -1,0 +1,11 @@
+#mod_rewrite Starts Here
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#check the html file extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]

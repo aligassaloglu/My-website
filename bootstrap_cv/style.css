@@ -74,7 +74,7 @@ body{
     .stake-experience{
         height: 480px;
     }
-    .mail-text{
-        font-size: 12px;
+    .mail-text,.web-text,.phone-text{
+        font-size: 13px;
     }
 }
